@@ -11,8 +11,8 @@ from PIL import Image
 st.set_page_config(page_title="🌸 Flower Classifier 🌸", layout="centered")
 
 # -- Constants --
-MODEL_URL = "https://huggingface.co/datasets/dnforimaco/flower-classification/resolve/main/flower-classification_model.h5"
-MODEL_PATH = "flower-classification_model.h5"
+MODEL_URL = "https://huggingface.co/datasets/dnforimaco/flower-classification/resolve/main/flower-class_model.h5"
+MODEL_PATH = "flower-class_model.h5"
 IMG_SIZE = (150, 150)  # Change if your model uses a different input size
 CLASS_NAMES = ['astilbe', 'bellflower', 'black_eyed_susan', 'calendula', 'california_poppy', 'carnation', 'common_daisy', 'coreopsis', 'dandelion', 'iris', 'rose', 'sunflower', 'tulip', 'water_lily']  # Assumes binary classification: 0 = Cat, 1 = Dog
 
